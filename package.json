@@ -1,0 +1,24 @@
+{
+  "name": "curso-cypress",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "Antônio Junior <acsjunior1@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm install",
+    "open": "sudo ./node_modules/.bin/cypress open"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">= 4.4.7",
+    "npm": ">= 2.15.8"
+  },
+  "dependencies": {
+    "cypress": "^6.4.0"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
